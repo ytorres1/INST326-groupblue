@@ -105,6 +105,7 @@ Lainey Franklin
 Simon Lin
 Location: 24 South Woodsman Dr Bemidji, MN 56601
 Time: 8:00PM-1:00AM
+PartyType: House
 Budget: $100
 FoodService: N/A
 DietaryRestriction: N/A
