@@ -1,0 +1,114 @@
+Hostname: Collin Hong
+Guestlist: Destiny Corona
+Darian Proctor
+Chandler Quintero
+Thatcher Cross
+Nayeli Bryant
+Jonah Vu
+Kimora Stanley
+Manuel Barry
+Waverly Barnes
+Damian Reyes
+Audrey Mora
+Arturo Rivera
+Lillian Cortes
+Banks Santos
+Alana Kelley
+Eric Harris
+Penelope Huang
+Ayaan McCarthy
+Kira Reilly
+Alvaro Landry
+Brynleigh Mays
+Jadiel Woods
+Reese Duffy
+Location: 634 Birch Hill Drive Reynoldsburg, OH 43068
+Time: 6:00PM-10:00PM
+PartyType: Birthday
+Budget: $350
+FoodService: Cater 
+DietaryRestriction: Vegetarian
+
+Hostname: Donya Hosseini
+GuestList: Kyng Webb
+Ariella Callahan
+Quinton Nolan
+Itzayana Walton
+Dominick Grimes
+Braelyn Harrell
+Nelson Sanders
+Everleigh Farmer
+Jamison Hendrix
+Zhuri Berger
+Byron Booker
+Nataly Manning
+Seth Duffy
+Addisyn Harrison
+Gavin Marquez
+Milani Solomon
+Musa Barnett
+Harlow Santana
+Mohamed Nichols
+Aliyah Rhodes
+Titus Armstrong
+Presley Harvey
+Cayden Bender
+Lilyana McIntosh
+Kristian Dean
+Julianna Wallace
+Chase Mack
+Nadia Moran
+Tate Hood
+Briana Archer
+Ephraim Yoder
+Emerie Arnold
+Abraham Prince
+Greta Bates
+Ellis Hansen
+Hope Mack
+Esteban Herring
+Denver Miles
+Jared Stone
+Catalina Lester
+Lee Mitchell
+Willow Pruitt
+Gatlin Duran
+Willa Wong
+Walter Farrell
+Kassidy Quinn
+Rhys Owen
+Location: 27 Belmont St Nampa, ID 83651
+Time: 4:00PM-8:00PM
+PartyType: Office
+Budget: $500
+FoodService: Buffet
+DietaryRestriction: Peanut, Halal, Kosher 
+
+Hostname: Zayaan Siddique
+GuestList: Shiloh Herman
+Juelz Duke
+Melani Rose
+Hayden Peters
+Leila Steele
+Elian Kirk
+Ellis Carlson
+Paul Bradford
+Rhea Holmes
+King Hail
+Lainey Carey
+Watson McCoy
+Mckenzie Guerrero
+Bryce McIntyre
+Rebekah Mason
+Brandon Hail
+Lainey Franklin
+Simon Lin
+Location: 24 South Woodsman Dr Bemidji, MN 56601
+Time: 8:00PM-1:00AM
+Budget: $100
+FoodService: N/A
+DietaryRestriction: N/A
+
+
+
+ 
