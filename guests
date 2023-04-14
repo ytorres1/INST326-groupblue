@@ -1,0 +1,46 @@
+import math
+class Guests():
+    
+    def _init__(self, file):
+        #should open the file and read the guests and other attributes
+        #variable/attribute guests will be a list for all the guests in the text file
+        return
+    def seating_chart(self):
+        """Creates a list of an appropriate amount of tables that are 
+            full of guests. 
+            
+            Returns:
+                list (lists of strings): list of the guests grouped in tables
+                    for the approrpriate amount of guests at a party.
+        """
+        temp_guest_list = self.guests
+        total_guests = len(self.guests)
+        
+        total_tables = math.ceil(total_guests / 10)
+        people_per_table = math.ceil(total_guests / total_tables)
+        
+        #list comprehension to group the guests in tables and make list of lists
+        chart = [temp_guest_list[index: index + people_per_table] for index in range(0, len(temp_guest_list), people_per_table)]
+        return chart
+    
+    def sorted_guests(self, chart):
+        """Sorts the list of guests in alphabetical order by last name. 
+        
+        Args:
+            chart (list of lists): a list with the guests grouped by table 
+                generated from the seating_chart method
+                
+        Returns:
+            dict: dictionary of guests with guest name as key and their 
+                table number as value. 
+        """
+        
+        new_dict = {}
+        for table in chart:
+            for name in table:
+                new_dict[name] = f'Table Number: {chart.index(table) + 1}'
+        #sort and use key lambda on the dictionary so that the staff seating people can find people quick by last name
+        sorted_dict = new_dict.sort(key=lambda x: x.split()[-1])
+        return sorted_dict
+    
+    
