@@ -2,7 +2,12 @@ import math
 class Guests():
     
     def _init__(self, file):
-        """Initializes the guest list with the guests from the file"""
+        """Initializes the guest list with the guests from the file
+        
+        Attributes:
+            guests (list of strings): names of guests
+            diet (str): dietary restrictions for guests
+        """
         #should open the file and read the guests and other attributes
         #variable/attribute guests will be a list for all the guests in the text file
         self.guests = []
