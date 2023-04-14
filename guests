@@ -2,9 +2,20 @@ import math
 class Guests():
     
     def _init__(self, file):
+        """Initializes the guest list with the guests from the file"""
         #should open the file and read the guests and other attributes
         #variable/attribute guests will be a list for all the guests in the text file
-        return
+        self.guests = []
+        with(open(file, "r", encoding = "utf-8")) as f:
+            for line in f:
+                if (line.find(':') == -1):
+                    self.guests.append(line)
+                elif ("DietaryRestriction" in line):
+                    self.diet = line[line.find(':')+2:]
+                    if(self.diet == "N/A"):
+                        self.diet = None
+            
+        
     def seating_chart(self):
         """Creates a list of an appropriate amount of tables that are 
             full of guests. 

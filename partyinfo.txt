@@ -1,5 +1,6 @@
 Hostname: Collin Hong
-Guestlist: Destiny Corona
+Guestlist: 
+Destiny Corona
 Darian Proctor
 Chandler Quintero
 Thatcher Cross
@@ -30,7 +31,8 @@ FoodService: Cater
 DietaryRestriction: Vegetarian
 
 Hostname: Donya Hosseini
-GuestList: Kyng Webb
+GuestList: 
+Kyng Webb
 Ariella Callahan
 Quinton Nolan
 Itzayana Walton
@@ -85,7 +87,8 @@ FoodService: Buffet
 DietaryRestriction: Peanut, Halal, Kosher 
 
 Hostname: Zayaan Siddique
-GuestList: Shiloh Herman
+GuestList: 
+Shiloh Herman
 Juelz Duke
 Melani Rose
 Hayden Peters
