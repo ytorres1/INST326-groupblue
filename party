@@ -38,7 +38,8 @@ class Party():
                     self.service = line[line.find(':')+2:]
                     continue
                     
-       # create a new list named new_party
+      # use sequence unpacking in the following way
+      # create a new list named new_party
        # include new values for host name, guest list, location, etc
        # unpack named variables by assignment
        # print values of new variables to show they were correct
