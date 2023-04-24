@@ -1,28 +1,28 @@
 Hostname: Collin Hong
 Guestlist: 
-Destiny Corona No
+Destiny Corona No Vegetarian 1039287364 F 14
 Darian Proctor Yes Vegetarian 43567990176 M 14
 Chandler Quintero Yes N/A  5677899543 F 17
-Thatcher Cross No
+Thatcher Cross No N/A 1928390192 M 12
 Nayeli Bryant Yes N/A 4566785362 F 18
-Jonah Vu Yes Peanut 3819872345 M 21
+Jonah Vu Yes Halal 3819872345 M 21
 Kimora Stanley Yes N/A 5477839201 M 16
 Manuel Barry Yes Vegetarian 2910989273 M 22
 Waverly Barnes Yes N/A 5473782888 F 17
-Damian Reyes No 
-Audrey Mora No
-Arturo Rivera Yes Peanut 1235283475 F 18
+Damian Reyes No N/A 2012394938
+Audrey Mora No Vegetarian 1029019283
+Arturo Rivera Yes Halal 1235283475 F 18
 Lillian Cortes Yes N/A 4302934591 F 15
-Banks Santos No
+Banks Santos No N/A 2398471623 M 17
 Alana Kelley Yes N/A 3019287647 F 19
 Eric Harris Yes Vegetarian 2807382345 M 20
 Penelope Huang Yes N/A 2014358493 M 14
 Ayaan McCarthy Yes Vegetarian 2039401823 M 12
 Kira Reilly Yes Vegetarian 4388019901 F 16
-Alvaro Landry No
-Brynleigh Mays No
-Jadiel Woods Yes Peanut 9096453627 F 15
-Reese Duffy Yes Peanut 2380197362 F 19
+Alvaro Landry No Halal 3098324543 F 16
+Brynleigh Mays No Vegetarian 8918273612 M 20
+Jadiel Woods Yes Halal 9096453627 F 15
+Reese Duffy Yes Halal 2380197362 F 19
 Location: 634 Birch Hill Drive Reynoldsburg, OH 43068
 Time: 6:00PM-10:00PM
 PartyType: Birthday
