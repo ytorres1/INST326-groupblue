@@ -15,10 +15,7 @@ class Guests():
             for line in f:
                 if (line.find(':') == -1):
                     self.guests.append(line)
-                elif ("DietaryRestriction" in line):
-                    self.diet = line[line.find(':')+2:]
-                    if(self.diet == "N/A"):
-                        self.diet = None
+                
             
         
     def seating_chart(self):
