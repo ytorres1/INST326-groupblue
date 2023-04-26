@@ -31,86 +31,84 @@ FoodService: Cater
 
 Hostname: Donya Hosseini
 GuestList: 
-Kyng Webb
-Ariella Callahan
-Quinton Nolan
-Itzayana Walton
-Dominick Grimes
-Braelyn Harrell
-Nelson Sanders
-Everleigh Farmer
-Jamison Hendrix
-Zhuri Berger
-Byron Booker
-Nataly Manning
-Seth Duffy
-Addisyn Harrison
-Gavin Marquez
-Milani Solomon
-Musa Barnett
-Harlow Santana
-Mohamed Nichols
-Aliyah Rhodes
-Titus Armstrong
-Presley Harvey
-Cayden Bender
-Lilyana McIntosh
-Kristian Dean
-Julianna Wallace
-Chase Mack
-Nadia Moran
-Tate Hood
-Briana Archer
-Ephraim Yoder
-Emerie Arnold
-Abraham Prince
-Greta Bates
-Ellis Hansen
-Hope Mack
-Esteban Herring
-Denver Miles
-Jared Stone
-Catalina Lester
-Lee Mitchell
-Willow Pruitt
-Gatlin Duran
-Willa Wong
-Walter Farrell
-Kassidy Quinn
-Rhys Owen
+Kyng Webb No Vegetarian 2910928392 M 32
+Ariella Callahan Yes N/A 3940929210 F 28
+Quinton Nolan Yes N/A 3929391204 M 30
+Itzayana Walton No N/A 1029304932 M 31
+Dominick Grimes Yes Vegetarian 1029302934 M 45
+Braelyn Harrell Yes Halal 3029390923 F 24
+Nelson Sanders No Halal 3029403920 M 29
+Everleigh Farmer Yes N/A 3029394939 F 35
+Jamison Hendrix No Vegetarian 1020304323 M 38
+Zhuri Berger Yes N/A 1240399493 F 34
+Byron Booker Yes N/A 2919303928 M 31
+Nataly Manning No N/A 1259403920 F 28
+Seth Duffy Yes Halal 3020102348 M 37
+Addisyn Harrison Yes Vegetarian 2834912839 F 42
+Gavin Marquez Yes N/A 2012093841 M 43
+Milani Solomon Yes Halal 3940123949 F 30
+Musa Barnett No Halal 3829192883 F 26
+Harlow Santana No N/A 4489302234 F 33
+Mohamed Nichols Yes Halal 3849200192 M 34
+Aliyah Rhodes No N/A 2939491992 F 28
+Titus Armstrong Yes Vegetarian 8084392834 M 43
+Presley Harvey No N/A 3347288938 M 39
+Cayden Bender Yes N/A 2919993929 F 40
+Lilyana McIntosh Yes Halal 2231234393 F 27
+Kristian Dean No Vegetarian 2103924883 F 36
+Julianna Wallace Yes N/A 3349293029 F 31
+Chase Mack Yes Vegetarian 3402039492 M 43
+Nadia Moran Yes N/A 4939491232 F 49
+Tate Hood No N/A 1023492039 M 29
+Briana Archer Yes N/A 3921230492 F 32
+Ephraim Yoder No Halal 1929392212 M 27
+Emerie Arnold No N/A 2012838123 F 39
+Abraham Prince Yes N/A 1023212234 M 31
+Greta Bates Yes Vegetarian 1029399921 F 33
+Ellis Hansen Yes N/A 4858388494 F 47
+Hope Mack Yes Vegetarian 2983928392 M 23
+Esteban Herring Yes Halal 2001929102 M 45
+Denver Miles Yes N/A 3920194773 M 36
+Jared Stone No Vegetarian 3020100023 M 41
+Catalina Lester No N/A 4838829382 F 42
+Lee Mitchell Yes N/A 3929910029 M 32
+Willow Pruitt Yes Vegetarian 3828819038 F 38
+Gatlin Duran No Halal 3201923325 M 28
+Willa Wong Yes Halal 3992341203 F 29
+Walter Farrell No N/A 3919929324 M 36
+Kassidy Quinn Yes N/A 3391245601 F 41
+Rhys Owen Yes Halal 3992134452 M 30
 Location: 27 Belmont St Nampa, ID 83651
 Time: 4:00PM-8:00PM
 PartyType: Office
 Budget: $500
 FoodService: Buffet
-DietaryRestriction: Peanut, Halal, Kosher 
 
 Hostname: Zayaan Siddique
 GuestList: 
-Shiloh Herman
-Juelz Duke
-Melani Rose
-Hayden Peters
-Leila Steele
-Elian Kirk
-Ellis Carlson
-Paul Bradford
-Rhea Holmes
-King Hail
-Lainey Carey
-Watson McCoy
-Mckenzie Guerrero
-Bryce McIntyre
-Rebekah Mason
-Brandon Hail
-Lainey Franklin
-Simon Lin
+Shiloh Herman Yes Vegetarian 2919229937 M 27
+Juelz Duke Yes N/A 3994839283 F 23
+Melani Rose Yes Halal 3929123329 F 20
+Hayden Peters No Vegetarian 3918381233 F 30
+Leila Steele No N/A 5564737723 F 23
+Elian Kirk Yes N/A 3343756367 M 31
+Ellis Carlson Yes Halal 6643945434 F 29
+Paul Bradford Yes Vegetarian 3933342341 M 27
+Rhea Holmes Yes N/A 4737237788 F 24
+King Hail Yes N/A 4737823774 M 27
+Lainey Carey No N/A 4437283748 F 33
+Watson McCoy Yes N/A 7549934233 M 23
+Mckenzie Guerrero Yes Vegetarian 3372838183 F 24
+Bryce McIntyre Yes Halal 4663726372 M 22
+Rebekah Mason No N/A 4473329102 F 25
+Brandon Hail No Halal 3662716273 M 26
+Lainey Franklin No Halal 3883234332 F 29
+Simon Lin Yes N/A 4729912335 M 28
 Location: 24 South Woodsman Dr Bemidji, MN 56601
 Time: 8:00PM-1:00AM
 PartyType: Wedding
 Budget: $100
-FoodService: N/A
-DietaryRestriction: N/A
+FoodService: Cater
 
 
 
