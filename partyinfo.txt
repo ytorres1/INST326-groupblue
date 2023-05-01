@@ -9,8 +9,8 @@ Jonah Vu Yes Halal 3819872345 M 21
 Kimora Stanley Yes N/A 5477839201 M 16
 Manuel Barry Yes Vegetarian 2910989273 M 22
 Waverly Barnes Yes N/A 5473782888 F 17
-Damian Reyes No N/A 2012394938
-Audrey Mora No Vegetarian 1029019283
+Damian Reyes No N/A 2012394938 M 17
+Audrey Mora No Vegetarian 1029019283 F 18
 Arturo Rivera Yes Halal 1235283475 F 18
 Lillian Cortes Yes N/A 4302934591 F 15
 Banks Santos No N/A 2398471623 M 17

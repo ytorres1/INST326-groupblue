@@ -1,3 +1,4 @@
+import guests.
 
 class Party():
     """class for Party object
@@ -37,6 +38,9 @@ class Party():
                 if "FoodService" in line:
                     self.service = line[line.find(':')+2:]
                     continue
+        
+        self.guests = guests.Guests(file)
+        
                     
       # use sequence unpacking in the following way
       # create a new list named new_party

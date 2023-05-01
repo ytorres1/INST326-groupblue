@@ -1,12 +1,13 @@
 import math
+import re
+
 class Guests():
     
     def _init__(self, file):
         """Initializes the guest list with the guests from the file
         
         Attributes:
-            guests (list of strings): names of guests
-            diet (str): dietary restrictions for guests
+            guests (list of ): names of guests
         """
         #should open the file and read the guests and other attributes
         #variable/attribute guests will be a list for all the guests in the text file
@@ -14,8 +15,13 @@ class Guests():
         with(open(file, "r", encoding = "utf-8")) as f:
             for line in f:
                 if (line.find(':') == -1):
-                    self.guests.append(line)
-            
+                    regex = r"^(?P<name>\w+?\s\w+?)\s(?P<rsvp>\w+?)\s(?P<dietres>.+?)\s(?P<phone>\d+?)\s(?P<gender>\w)\s(?P<age>\d+?)$"
+                    match = re.search(regex, line)
+                    thisGuest = {"Name":match.group("name"), "RSVP":match.group("rsvp"),
+                                 "Diet Res":match.group("dietres"), "Phone":match.group("phone"),
+                                 "Gender":match.group("gender"), "Age":match.group("age")}
+                    self.guests.append(thisGuest)
+                    
         
     def seating_chart(self):
         """Creates a list of an appropriate amount of tables that are 
