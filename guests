@@ -22,6 +22,13 @@ class Guests():
                                  "Gender":match.group("gender"), "Age":match.group("age")}
                     self.guests.append(thisGuest)
                     
+    def confirmed_guests(self):
+        confirmed_guests = []   
+        unconfirmed_guests = []           
+        for item in self.guests:
+            confirmed_guests.append(item.get("Name")) if item.get("RSVP") == "Yes" else unconfirmed_guests.append(item.get("Name"))
+    
+        return confirmed_guests
         
     def seating_chart(self):
         """Creates a list of an appropriate amount of tables that are 
@@ -60,5 +67,34 @@ class Guests():
         #sort and use key lambda on the dictionary so that the staff seating people can find people quick by last name
         sorted_dict = new_dict.sort(key=lambda x: x.split()[-1])
         return sorted_dict
+    
+    
+def main():
+    choice = input('''What do you want to see? 
+                #1 Guests who have RSVP 
+                #2 Seating Chart for Guests
+                #3 List of seating chart for waiter
+                #4 Visualize your guests details
+                #5 Distribution of your budget
+                Your choice: ''')
+    #^ADD MORE CHOICES HERE IF NECESSARY 
+    if choice == "1": 
+        Guests.confirmed_guests()
+    elif choice == "2":
+        Guests.seating_chart()
+    elif choice == "3":
+        Guests.sorted_guests(Guests.seating_chart())
+    elif choice == "4":
+        #USE THE PANDAS METHOD HERE TO DISPLAY GUESTS DETAILS(BAR CHARTS)
+        pass
+    elif choice == "5":
+        #USE DATAFRAME TO SHOW WHERE TO DISTRIBUTE BUDGET LIKE 
+        # DIET RESTRICTIONS, AGE RANGE (KIDS(DECORATIONS), TEENS, ADULTS(GET ADULT DRINKS))
+        pass
+    else:
+        print("Invalid Choice. Try Again!")  
+        
+    
+    
     
     
