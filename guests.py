@@ -42,7 +42,8 @@ class Guests():
                 list (lists of strings): list of the guests grouped in tables
                     for the approrpriate amount of guests at a party.
         """
-        temp_guest_list = self.guests
+        
+        temp_guest_list = Guests.confirmed_guests(self)
         total_guests = len(self.guests)
         
         total_tables = math.ceil(total_guests / 10)
@@ -50,6 +51,7 @@ class Guests():
         
         #list comprehension to group the guests in tables and make list of lists
         chart = [temp_guest_list[index: index + people_per_table] for index in range(0, len(temp_guest_list), people_per_table)]
+        
         return chart
     
     def sorted_guests(self, chart):
@@ -69,7 +71,7 @@ class Guests():
             for name in table:
                 new_dict[name] = f'Table Number: {chart.index(table) + 1}'
         #sort and use key lambda on the dictionary so that the staff seating people can find people quick by last name
-        sorted_dict = new_dict.sort(key=lambda x: x.split()[-1])
+        sorted_dict = dict(sorted(new_dict.items(), key=lambda x: x[0].split()[1]))
         return sorted_dict
     
     def guest_details(self, name):
@@ -208,7 +210,8 @@ def parse_args(arglist):
 
     
     
-def main():
+def main(filepath):
+    first_guest = Guests(filepath)
     choice = input('''What do you want to see? 
                 #1 Guests who have RSVP 
                 #2 Seating Chart for Guests
@@ -216,24 +219,22 @@ def main():
                 #4 Visualize your guests details
                 #5 Distribution of your budget
                 Your choice: ''')
-                #6 Search guest details
     #^ADD MORE CHOICES HERE IF NECESSARY 
     if choice == "1": 
-        Guests.confirmed_guests()
+        print(first_guest.confirmed_guests())
     elif choice == "2":
-        Guests.seating_chart()
+        print(first_guest.seating_chart())
     elif choice == "3":
-        Guests.sorted_guests(Guests.seating_chart())
+        print(first_guest.sorted_guests(first_guest.seating_chart()))
     elif choice == "4":
-        Guests.guest_stats()
+        #USE THE PANDAS METHOD HERE TO DISPLAY GUESTS DETAILS(BAR CHARTS)
+        pass
     elif choice == "5":
         #USE DATAFRAME TO SHOW WHERE TO DISTRIBUTE BUDGET LIKE 
         # DIET RESTRICTIONS, AGE RANGE (KIDS(DECORATIONS), TEENS, ADULTS(GET ADULT DRINKS))
         pass
-    elif choice == "6":
-        Guests.guest_details()
     else:
-        print("Invalid Choice. Try Again!")  
+        print("Invalid Choice. Try Again!")    
         
         
 if __name__ == "__main__":
