@@ -109,6 +109,7 @@ class Guests():
             Bar graph showing the count of guests by gender.
             Bar graph showing the count of guests in different age groups.
         """
+        csv = input("Please provide the name of the CSV file you want to use. Make sure to add the .csv\n")
         df = pd.read_csv(csv)
 
         # Guest List with RSVP status and pertinent dietary restrictions
