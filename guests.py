@@ -3,7 +3,7 @@ import re
 from argparse import ArgumentParser
 import sys
 import pandas as pd
-import matplotlib.pyplot
+import matplotlib.pyplot as mpl
 
 class Guests():
     
@@ -94,18 +94,22 @@ class Guests():
         #return the name of the guest if input matches the name in the text file
         return None
     
-    def guest_stats(self):
+    def guest_stats(self, csv):
         """
-        Reads a guest list in the form of CSV file using pandas to perform various analyses with the data.
+        Reads a guest list from a CSV file and performs various analyses with the data.
 
         Args:
-            None
+            csv (str): The name of the CSV file that has the guest list, RSVP info, and dietary restrictions
 
         Returns:
             None
+
+        Prints:
+            Guest list with RSVP status and pertinent dietary restrictions.
+            Bar graph showing the count of guests by gender.
+            Bar graph showing the count of guests in different age groups.
         """
-        df_name = input("Please provide the name of the csv you want to use. Make sure to add the .csv\n")
-        df = pd.read_csv(df_name)
+        df = pd.read_csv(csv)
 
         # Guest List with RSVP status and pertinent dietary restrictions
         guestlist_df = df.loc[:, ['First Name', 'Last Name', 'RSVP Status']]
@@ -129,6 +133,7 @@ class Guests():
         age_counts = [len(df[children]), len(df[teenagers]), len(df[adults])]
         age_counts_df = pd.Dataframe({'Age Group': age_groups, 'Count': age_counts})
         age_counts_df.plot.bar(x='Age Group', y='Count')
+ 
 
 class Party():
     """class for Party object
@@ -210,13 +215,8 @@ def parse_args(arglist):
 
     
     
-<<<<<<< HEAD
-def main(filepath):
-    first_guest = Guests(filepath)
-=======
 def main(path):
     current = Guests(path)
->>>>>>> 6a96b3f3ce87ba915ffd5e5a2d4a5d37f4715655
     choice = input('''What do you want to see? 
                 #1 Guests who have RSVP 
                 #2 Seating Chart for Guests
@@ -226,24 +226,13 @@ def main(path):
                 Your choice: ''')
     #^ADD MORE CHOICES HERE IF NECESSARY 
     if choice == "1": 
-<<<<<<< HEAD
-        print(first_guest.confirmed_guests())
-    elif choice == "2":
-        print(first_guest.seating_chart())
-    elif choice == "3":
-        print(first_guest.sorted_guests(first_guest.seating_chart()))
-    elif choice == "4":
-        #USE THE PANDAS METHOD HERE TO DISPLAY GUESTS DETAILS(BAR CHARTS)
-        pass
-=======
         print(current.confirmed_guests())
     elif choice == "2":
-        print(current.seating_chart())
+        Guests.seating_chart()
     elif choice == "3":
-        print(current.sorted_guests(current.seating_chart()))
+        Guests.sorted_guests(Guests.seating_chart())
     elif choice == "4":
         print(current.guest_stats())
->>>>>>> 6a96b3f3ce87ba915ffd5e5a2d4a5d37f4715655
     elif choice == "5":
         #USE DATAFRAME TO SHOW WHERE TO DISTRIBUTE BUDGET LIKE 
         # DIET RESTRICTIONS, AGE RANGE (KIDS(DECORATIONS), TEENS, ADULTS(GET ADULT DRINKS))
@@ -252,7 +241,6 @@ def main(path):
 =======
     elif choice == "6":
         current.guest_details()
->>>>>>> 6a96b3f3ce87ba915ffd5e5a2d4a5d37f4715655
     else:
         print("Invalid Choice. Try Again!")    
         
