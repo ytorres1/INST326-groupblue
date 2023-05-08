@@ -2,6 +2,8 @@ import math
 import re
 from argparse import ArgumentParser
 import sys
+import pandas as pd
+import matplotlib.pyplot
 
 class Guests():
     
@@ -77,14 +79,55 @@ class Guests():
             name (str): the name of the person that you want the information of.
             
         Returns: 
-            dict: dictionary that includes details of the specified guest, 
+            dict: new dictionary that includes details of the specified guest, 
                 if the guest can not be found will return None.
                 
         """
-        
-        #return guest details using specified name using conditional expression
-        return ((guest for guest in self.guests if guest["Name"] == name), None)
     
+        
+        new_dict = {}
+        for guest in self.guests:
+            if guest["Name"] == name:
+                return guest
+        #return the name of the guest if input matches the name in the text file
+        return None
+    
+    def guest_stats(self):
+        """
+        Reads a guest list in the form of CSV file using pandas to perform various analyses with the data.
+
+        Args:
+            None
+
+        Returns:
+            None
+        """
+        df_name = input("Please provide the name of the csv you want to use. Make sure to add the .csv\n")
+        df = pd.read_csv(df_name)
+
+        # Guest List with RSVP status and pertinent dietary restrictions
+        guestlist_df = df.loc[:, ['First Name', 'Last Name', 'RSVP Status']]
+        print(guestlist_df)
+        print(df['Dietary Restriction'].unique())
+        
+        
+        #gender count bar graph
+        sex_df = df['Sex'].value_counts()
+        print(sex_df)
+        sex_df.plot.bar(x=['Male', 'Female'], y=sex_df)
+        
+        #age group bar graph
+        #create groups by age
+        children = df['Age'] <= 12
+        teenagers = (df['Age'] > 12) & (df['Age'] <= 21)
+        adults = df['Age'] > 21
+
+        #Creates df with data from above and plots the graph
+        age_groups = ['Children', 'Teenagers', 'Adults']
+        age_counts = [len(df[children]), len(df[teenagers]), len(df[adults])]
+        age_counts_df = pd.Dataframe({'Age Group': age_groups, 'Count': age_counts})
+        age_counts_df.plot.bar(x='Age Group', y='Count')
+
 class Party():
     """class for Party object
     
@@ -124,7 +167,7 @@ class Party():
                     self.service = line[line.find(':')+2:]
                     continue
         
-        self.guests = Guests(file)
+        self.guests = Guests.guests(file)
     
     def __str__(self):
         """Returns informal string representation of party information for guests
@@ -182,14 +225,13 @@ def main():
     elif choice == "3":
         Guests.sorted_guests(Guests.seating_chart())
     elif choice == "4":
-        #USE THE PANDAS METHOD HERE TO DISPLAY GUESTS DETAILS(BAR CHARTS)
-        pass
+        Guests.guest_stats()
     elif choice == "5":
         #USE DATAFRAME TO SHOW WHERE TO DISTRIBUTE BUDGET LIKE 
         # DIET RESTRICTIONS, AGE RANGE (KIDS(DECORATIONS), TEENS, ADULTS(GET ADULT DRINKS))
         pass
     elif choice == "6":
-        current.guest_details()
+        Guests.guest_details()
     else:
         print("Invalid Choice. Try Again!")  
         
