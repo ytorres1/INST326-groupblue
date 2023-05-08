@@ -172,8 +172,8 @@ def main():
                 #3 List of seating chart for waiter
                 #4 Visualize your guests details
                 #5 Distribution of your budget
-                Your choice: ''')
                 #6 Search guest details
+                Your choice: '''
     #^ADD MORE CHOICES HERE IF NECESSARY 
     if choice == "1": 
         Guests.confirmed_guests()
