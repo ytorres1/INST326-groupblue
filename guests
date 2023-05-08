@@ -5,7 +5,7 @@ import sys
 
 class Guests():
     
-    def _init__(self, file):
+    def __init__(self, file):
         """Initializes the guest list with the guests from the file
         
         Attributes:
@@ -124,7 +124,7 @@ class Party():
                     self.service = line[line.find(':')+2:]
                     continue
         
-        self.guests = guests.Guests(file)
+        self.guests = Guests(file)
     
     def __str__(self):
         """Returns informal string representation of party information for guests
@@ -165,7 +165,8 @@ def parse_args(arglist):
 
     
     
-def main():
+def main(path):
+    current = Guests(path)
     choice = input('''What do you want to see? 
                 #1 Guests who have RSVP 
                 #2 Seating Chart for Guests
@@ -176,11 +177,11 @@ def main():
                 #6 Search guest details
     #^ADD MORE CHOICES HERE IF NECESSARY 
     if choice == "1": 
-        Guests.confirmed_guests()
+        current.confirmed_guests()
     elif choice == "2":
-        Guests.seating_chart()
+        current.seating_chart()
     elif choice == "3":
-        Guests.sorted_guests(Guests.seating_chart())
+        current.sorted_guests(current.seating_chart())
     elif choice == "4":
         #USE THE PANDAS METHOD HERE TO DISPLAY GUESTS DETAILS(BAR CHARTS)
         pass
@@ -189,7 +190,7 @@ def main():
         # DIET RESTRICTIONS, AGE RANGE (KIDS(DECORATIONS), TEENS, ADULTS(GET ADULT DRINKS))
         pass
     elif choice == "6":
-        Guests.guest_details()
+        current.guest_details()
     else:
         print("Invalid Choice. Try Again!")  
         
