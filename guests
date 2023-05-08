@@ -77,17 +77,13 @@ class Guests():
             name (str): the name of the person that you want the information of.
             
         Returns: 
-            dict: new dictionary that includes details of the specified guest, 
+            dict: dictionary that includes details of the specified guest, 
                 if the guest can not be found will return None.
                 
         """
         
-        new_dict = {}
-        for guest in self.guests:
-            if guest["Name"] == name:
-                return guest
-        #return the name of the guest if input matches the name in the text file
-        return None
+        #return guest details using specified name using conditional expression
+        return ((guest for guest in self.guests if guest["Name"] == name), None)
     
 class Party():
     """class for Party object
