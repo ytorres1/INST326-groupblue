@@ -1,34 +1,3 @@
-Hostname: Collin Hong
-Guestlist: 
-Destiny Corona No Vegetarian 1039287364 F 14
-Darian Proctor Yes Vegetarian 43567990176 M 14
-Chandler Quintero Yes N/A  5677899543 F 17
-Thatcher Cross No N/A 1928390192 M 12
-Nayeli Bryant Yes N/A 4566785362 F 18
-Jonah Vu Yes Peanut 3819872345 M 21
-Kimora Stanley Yes N/A 5477839201 M 16
-Manuel Barry Yes Vegetarian 2910989273 M 22
-Waverly Barnes Yes N/A 5473782888 F 17
-Damian Reyes No N/A 2012394938 M 17
-Audrey Mora No Vegetarian 1029019283 F 18
-Arturo Rivera Yes Peanut 1235283475 F 18
-Lillian Cortes Yes N/A 4302934591 F 15
-Banks Santos No N/A 2398471623 M 17
-Alana Kelley Yes N/A 3019287647 F 19
-Eric Harris Yes Vegetarian 2807382345 M 20
-Penelope Huang Yes N/A 2014358493 M 14
-Ayaan McCarthy Yes Vegetarian 2039401823 M 12
-Kira Reilly Yes Vegetarian 4388019901 F 16
-Alvaro Landry No Peanut 3098324543 F 16
-Brynleigh Mays No Vegetarian 8918273612 M 20
-Jadiel Woods Yes Peanut 9096453627 F 15
-Reese Duffy Yes Peanut 2380197362 F 19
-Location: 634 Birch Hill Drive Reynoldsburg, OH 43068
-Time: 6:00PM-10:00PM
-PartyType: Birthday
-Budget: $350
-FoodService: Cater 
-
 Hostname: Donya Hosseini
 GuestList: 
 Kyng Webb No Vegetarian 2910928392 M 32
@@ -83,33 +52,3 @@ Time: 4:00PM-8:00PM
 PartyType: Office
 Budget: $500
 FoodService: Buffet
-
-Hostname: Zayaan Siddique
-GuestList: 
-Shiloh Herman Yes Vegetarian 2919229937 M 27
-Juelz Duke Yes N/A 3994839283 F 23
-Melani Rose Yes Peanut 3929123329 F 20
-Hayden Peters No Vegetarian 3918381233 F 30
-Leila Steele No N/A 5564737723 F 23
-Elian Kirk Yes N/A 3343756367 M 31
-Ellis Carlson Yes Peanut 6643945434 F 29
-Paul Bradford Yes Vegetarian 3933342341 M 27
-Rhea Holmes Yes N/A 4737237788 F 24
-King Hail Yes N/A 4737823774 M 27
-Lainey Carey No N/A 4437283748 F 33
-Watson McCoy Yes N/A 7549934233 M 23
-Mckenzie Guerrero Yes Vegetarian 3372838183 F 24
-Bryce McIntyre Yes Peanut 4663726372 M 22
-Rebekah Mason No N/A 4473329102 F 25
-Brandon Hail No Peanut 3662716273 M 26
-Lainey Franklin No Peanut 3883234332 F 29
-Simon Lin Yes N/A 4729912335 M 28
-Location: 24 South Woodsman Dr Bemidji, MN 56601
-Time: 8:00PM-1:00AM
-PartyType: Wedding
-Budget: $100
-FoodService: Cater
-
-
-
- 

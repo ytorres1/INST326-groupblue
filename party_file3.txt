@@ -1,0 +1,29 @@
+Hostname: Zayaan Siddique
+GuestList: 
+Shiloh Herman Yes Vegetarian 2919229937 M 27
+Juelz Duke Yes N/A 3994839283 F 23
+Melani Rose Yes Peanut 3929123329 F 20
+Hayden Peters No Vegetarian 3918381233 F 30
+Leila Steele No N/A 5564737723 F 23
+Elian Kirk Yes N/A 3343756367 M 31
+Ellis Carlson Yes Peanut 6643945434 F 29
+Paul Bradford Yes Vegetarian 3933342341 M 27
+Rhea Holmes Yes N/A 4737237788 F 24
+King Hail Yes N/A 4737823774 M 27
+Lainey Carey No N/A 4437283748 F 33
+Watson McCoy Yes N/A 7549934233 M 23
+Mckenzie Guerrero Yes Vegetarian 3372838183 F 24
+Bryce McIntyre Yes Peanut 4663726372 M 22
+Rebekah Mason No N/A 4473329102 F 25
+Brandon Hail No Peanut 3662716273 M 26
+Lainey Franklin No Peanut 3883234332 F 29
+Simon Lin Yes N/A 4729912335 M 28
+Location: 24 South Woodsman Dr Bemidji, MN 56601
+Time: 8:00PM-1:00AM
+PartyType: Wedding
+Budget: $100
+FoodService: Cater
+
+
+
+ 
