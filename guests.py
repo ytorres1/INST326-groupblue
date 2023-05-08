@@ -229,17 +229,15 @@ def main(path):
     if choice == "1": 
         print(current.confirmed_guests())
     elif choice == "2":
-        Guests.seating_chart()
+        print(current.seating_chart())
     elif choice == "3":
-        Guests.sorted_guests(Guests.seating_chart())
+        print(current.sorted_guests(current.seating_chart()))
     elif choice == "4":
         print(current.guest_stats())
     elif choice == "5":
         #USE DATAFRAME TO SHOW WHERE TO DISTRIBUTE BUDGET LIKE 
         # DIET RESTRICTIONS, AGE RANGE (KIDS(DECORATIONS), TEENS, ADULTS(GET ADULT DRINKS))
         pass
-<<<<<<< HEAD
-=======
     elif choice == "6":
         current.guest_details()
     else:
