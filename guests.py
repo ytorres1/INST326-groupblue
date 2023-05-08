@@ -214,30 +214,32 @@ def parse_args(arglist):
     
 def main(path):
     current = Guests(path)
-    choice = input('''What do you want to see? 
-                #1 Guests who have RSVP 
-                #2 Seating Chart for Guests
-                #3 List of seating chart for waiter
-                #4 Visualize your guests details
-                #5 Distribution of your budget
-                Your choice: ''')
-    #^ADD MORE CHOICES HERE IF NECESSARY 
-    if choice == "1": 
-        print(current.confirmed_guests())
-    elif choice == "2":
-        print(current.seating_chart())
-    elif choice == "3":
-        print(current.sorted_guests(current.seating_chart()))
-    elif choice == "4":
-        print(current.guest_stats())
-    elif choice == "5":
-        #USE DATAFRAME TO SHOW WHERE TO DISTRIBUTE BUDGET LIKE 
-        # DIET RESTRICTIONS, AGE RANGE (KIDS(DECORATIONS), TEENS, ADULTS(GET ADULT DRINKS))
-        pass
-    elif choice == "6":
-        current.guest_details()
-    else:
-        print("Invalid Choice. Try Again!")    
+    while True:
+        choice = input('''What do you want to see? 
+                    #1 Guests who have RSVP 
+                    #2 Seating Chart for Guests
+                    #3 List of seating chart for waiter
+                    #4 Visualize your guests details
+                    #5 View guest details
+                    Type "done" if you are finished
+                    Your choice: ''')
+        #^ADD MORE CHOICES HERE IF NECESSARY 
+        if choice == "1": 
+            print(current.confirmed_guests())
+        elif choice == "2":
+            print(current.seating_chart())
+        elif choice == "3":
+            print(current.sorted_guests(current.seating_chart()))
+        elif choice == "4":
+            print(current.guest_stats())
+        elif choice == "5":
+            choice2 = input("Enter a guest name here:")
+            print(current.guest_details(choice2))
+        elif choice == "done":
+            break
+        else:
+            print("Invalid Choice. Try Again!")
+    
         
         
 if __name__ == "__main__":
