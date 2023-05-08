@@ -210,8 +210,13 @@ def parse_args(arglist):
 
     
     
+<<<<<<< HEAD
 def main(filepath):
     first_guest = Guests(filepath)
+=======
+def main(path):
+    current = Guests(path)
+>>>>>>> 6a96b3f3ce87ba915ffd5e5a2d4a5d37f4715655
     choice = input('''What do you want to see? 
                 #1 Guests who have RSVP 
                 #2 Seating Chart for Guests
@@ -221,6 +226,7 @@ def main(filepath):
                 Your choice: ''')
     #^ADD MORE CHOICES HERE IF NECESSARY 
     if choice == "1": 
+<<<<<<< HEAD
         print(first_guest.confirmed_guests())
     elif choice == "2":
         print(first_guest.seating_chart())
@@ -229,10 +235,24 @@ def main(filepath):
     elif choice == "4":
         #USE THE PANDAS METHOD HERE TO DISPLAY GUESTS DETAILS(BAR CHARTS)
         pass
+=======
+        print(current.confirmed_guests())
+    elif choice == "2":
+        print(current.seating_chart())
+    elif choice == "3":
+        print(current.sorted_guests(current.seating_chart()))
+    elif choice == "4":
+        print(current.guest_stats())
+>>>>>>> 6a96b3f3ce87ba915ffd5e5a2d4a5d37f4715655
     elif choice == "5":
         #USE DATAFRAME TO SHOW WHERE TO DISTRIBUTE BUDGET LIKE 
         # DIET RESTRICTIONS, AGE RANGE (KIDS(DECORATIONS), TEENS, ADULTS(GET ADULT DRINKS))
         pass
+<<<<<<< HEAD
+=======
+    elif choice == "6":
+        current.guest_details()
+>>>>>>> 6a96b3f3ce87ba915ffd5e5a2d4a5d37f4715655
     else:
         print("Invalid Choice. Try Again!")    
         
