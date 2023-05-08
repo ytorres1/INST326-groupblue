@@ -208,7 +208,8 @@ def parse_args(arglist):
 
     
     
-def main():
+def main(path):
+    current = Guests(path)
     choice = input('''What do you want to see? 
                 #1 Guests who have RSVP 
                 #2 Seating Chart for Guests
@@ -219,19 +220,19 @@ def main():
                 #6 Search guest details
     #^ADD MORE CHOICES HERE IF NECESSARY 
     if choice == "1": 
-        Guests.confirmed_guests()
+        print(current.confirmed_guests())
     elif choice == "2":
-        Guests.seating_chart()
+        print(current.seating_chart())
     elif choice == "3":
-        Guests.sorted_guests(Guests.seating_chart())
+        print(current.sorted_guests(current.seating_chart()))
     elif choice == "4":
-        Guests.guest_stats()
+        print(current.guest_stats())
     elif choice == "5":
         #USE DATAFRAME TO SHOW WHERE TO DISTRIBUTE BUDGET LIKE 
         # DIET RESTRICTIONS, AGE RANGE (KIDS(DECORATIONS), TEENS, ADULTS(GET ADULT DRINKS))
         pass
     elif choice == "6":
-        Guests.guest_details()
+        current.guest_details()
     else:
         print("Invalid Choice. Try Again!")  
         
