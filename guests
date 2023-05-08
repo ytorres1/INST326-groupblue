@@ -177,11 +177,11 @@ def main(path):
                 #6 Search guest details
     #^ADD MORE CHOICES HERE IF NECESSARY 
     if choice == "1": 
-        current.confirmed_guests()
+        print(current.confirmed_guests())
     elif choice == "2":
-        current.seating_chart()
+        print(current.seating_chart())
     elif choice == "3":
-        current.sorted_guests(current.seating_chart())
+        print(current.sorted_guests(current.seating_chart()))
     elif choice == "4":
         #USE THE PANDAS METHOD HERE TO DISPLAY GUESTS DETAILS(BAR CHARTS)
         pass
