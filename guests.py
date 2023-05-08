@@ -3,7 +3,7 @@ import re
 from argparse import ArgumentParser
 import sys
 import pandas as pd
-import matplotlib.pyplot as mpl
+import matplotlib.pyplot as plt
 
 class Guests():
     
@@ -94,35 +94,30 @@ class Guests():
         #return the name of the guest if input matches the name in the text file
         return None
     
-    def guest_stats(self, csv):
+    def guest_stats(self):
         """
-        Reads a guest list from a CSV file and performs various analyses with the data.
+        Reads a guest list in the form of CSV file using pandas to perform various analyses with the data.
 
         Args:
-            csv (str): The name of the CSV file that has the guest list, RSVP info, and dietary restrictions
+        None
 
         Returns:
-            None
-
-        Prints:
-            Guest list with RSVP status and pertinent dietary restrictions.
-            Bar graph showing the count of guests by gender.
-            Bar graph showing the count of guests in different age groups.
+        None
         """
-        csv = input("Please provide the name of the CSV file you want to use. Make sure to add the .csv\n")
-        df = pd.read_csv(csv)
+        df_name = input("Please provide the name of the csv you want to use. Make sure to add the .csv\n")
+        df = pd.read_csv(df_name)
 
         # Guest List with RSVP status and pertinent dietary restrictions
         guestlist_df = df.loc[:, ['First Name', 'Last Name', 'RSVP Status']]
         print(guestlist_df)
         print(df['Dietary Restriction'].unique())
-        
-        
+
+
         #gender count bar graph
         sex_df = df['Sex'].value_counts()
         print(sex_df)
         sex_df.plot.bar(x=['Male', 'Female'], y=sex_df)
-        
+
         #age group bar graph
         #create groups by age
         children = df['Age'] <= 12
@@ -132,9 +127,10 @@ class Guests():
         #Creates df with data from above and plots the graph
         age_groups = ['Children', 'Teenagers', 'Adults']
         age_counts = [len(df[children]), len(df[teenagers]), len(df[adults])]
-        age_counts_df = pd.Dataframe({'Age Group': age_groups, 'Count': age_counts})
+        age_counts_df = pd.DataFrame({'Age Group': age_groups, 'Count': age_counts})
         age_counts_df.plot.bar(x='Age Group', y='Count')
-        mpl.show()
+
+        plt.show() # Add this line to display the graphs
 
 class Party():
     """class for Party object
