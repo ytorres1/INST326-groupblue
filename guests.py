@@ -134,7 +134,7 @@ class Guests():
         age_counts = [len(df[children]), len(df[teenagers]), len(df[adults])]
         age_counts_df = pd.Dataframe({'Age Group': age_groups, 'Count': age_counts})
         age_counts_df.plot.bar(x='Age Group', y='Count')
- 
+        mpl.show()
 
 class Party():
     """class for Party object
