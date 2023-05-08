@@ -70,6 +70,24 @@ class Guests():
         sorted_dict = new_dict.sort(key=lambda x: x.split()[-1])
         return sorted_dict
     
+    def guest_details(self, name):
+        """Returns the information details of a single guest when asked.
+        
+        Args:
+            name (str): the name of the person that you want the information of.
+            
+        Returns: 
+            dict: new dictionary that includes details of the specified guest, 
+                if the guest can not be found will return None.
+                
+        """
+        
+        new_dict = {}
+        for guest in self.guests:
+            if guest["Name"] == name:
+                return guest
+        #return the name of the guest if input matches the name in the text file
+        return None
     
 class Party():
     """class for Party object
@@ -159,6 +177,7 @@ def main():
                 #4 Visualize your guests details
                 #5 Distribution of your budget
                 Your choice: ''')
+                #6 Search guest details
     #^ADD MORE CHOICES HERE IF NECESSARY 
     if choice == "1": 
         Guests.confirmed_guests()
@@ -173,6 +192,8 @@ def main():
         #USE DATAFRAME TO SHOW WHERE TO DISTRIBUTE BUDGET LIKE 
         # DIET RESTRICTIONS, AGE RANGE (KIDS(DECORATIONS), TEENS, ADULTS(GET ADULT DRINKS))
         pass
+    elif choice == "6":
+        Guests.guest_details()
     else:
         print("Invalid Choice. Try Again!")  
         
