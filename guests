@@ -9,7 +9,7 @@ class Guests():
         """Initializes the guest list with the guests from the file
         
         Attributes:
-            guests (list of ): names of guests
+            guests (list of dictionaries): names of guests
         """
         #should open the file and read the guests and other attributes
         #variable/attribute guests will be a list for all the guests in the text file
