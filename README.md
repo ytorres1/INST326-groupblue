@@ -16,7 +16,22 @@ Repository for our final project
 `python3 party_planning.py party_file1.txt`
 
 **How to use our program and/or interpret the output of the program**
-- stuff here
+- Select an option from the menu provided
+  -For #1 Guests who have RSVPed
+    -The list returned will contain all guests who have RSVPed 'Yes'
+  -For #2 Seating Chart for Guests
+    -List returned, each list within that list is a seperate table
+  -For #3 List of Seating Chart for Waiter
+    -Dictionary returned, sorted in alphabetical order, with guest name as key and 
+    table number as value
+  -For #4 Visualize all your Guests' details
+    -Shows graphs to visualize demographics of Guests
+  -For #5 Find one specific guest's details
+    -Returns a list of dictionaries, a specific guest's details
+  -For #6 View all party details
+    -Prints party details
+  -For #7 Invitation to your guests
+    -Prints party invitation
 
 **Annotated bibliography** 
 - all sources used to develop our project. For each source, explain how we used the source.
@@ -28,8 +43,8 @@ Repository for our final project
 | --- | --- | --- |
 | `seating_chart()` | Yasmine Torres | List Comprehension |
 | `sorted_guests()` | Yasmine Torres | Sort using Lambda |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
-| Row 4, Column 1 | Row 4, Column 2 | Row 4, Column 3 |
+| Guests '__init__' | Alice Sun      | Regular Expressions|
+| Party '__init__'  | Alice Sun      | With Statement |
 | Row 5, Column 1 | Row 5, Column 2 | Row 5, Column 3 |
 | Row 6, Column 1 | Row 6, Column 2 | Row 6, Column 3 |
 | Row 7, Column 1 | Row 7, Column 2 | Row 7, Column 3 |

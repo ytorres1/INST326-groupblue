@@ -12,6 +12,15 @@ class Guests():
         
         Attributes:
             guests (list of dictionaries): names of guests
+        
+        Side effects:
+            Creates list of dictionaries from file
+        
+        Primary Author:
+            Alice Sun
+            
+        Technique Demonstrated:
+            Regular Expressions
         """
         self.guests = []
         with(open(file, "r", encoding = "utf-8")) as f:
@@ -169,7 +178,16 @@ class Party():
         service (str): type of food service
         time_start (str): start of party
         time_end (str): end of party
-        guests (str): a Guest object 
+        guests (str): a Guests object 
+    
+    Side effects:
+        Assigns attributes to object
+    
+    Primary Author:
+        Alice Sun
+        
+    Techniques Demonstrated:
+        With Statement
     """
     
     def __init__(self, file):
@@ -248,7 +266,7 @@ def main(path):
     current = Guests(path)
     while True:
         choice = input('''What do you want to see? 
-                    #1 Guests who have RSVP 
+                    #1 Guests who have RSVPed 
                     #2 Seating chart for guests
                     #3 List of seating chart for waiter
                     #4 Visualize all your guests details
