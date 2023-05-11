@@ -45,7 +45,7 @@ Repository for our final project
 | `sorted_guests()` | Yasmine Torres | Sort using Lambda |
 | Guests '__init__' | Alice Sun      | Regular Expressions|
 | Party '__init__'  | Alice Sun      | With Statement |
-| Row 5, Column 1 | Row 5, Column 2 | Row 5, Column 3 |
-| Row 6, Column 1 | Row 6, Column 2 | Row 6, Column 3 |
+| 'guests_stats()' | Zayaan Siddique | Dataframe manipulation using Pandas |
+| 'guests_stats()' | Zayaan Siddique | Data visualization using pyplot |
 | Row 7, Column 1 | Row 7, Column 2 | Row 7, Column 3 |
 | Row 8, Column 1 | Row 8, Column 2 | Row 8, Column 3 |
