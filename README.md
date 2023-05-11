@@ -6,7 +6,7 @@ Repository for our final project for INST326
 - Clear instructions on how to use your program and/or interpret the output of the program, as applicable
 - An annotated bibliography of all sources you used to develop your project. For each source, explain how you used the source.
 
-| **Method/function | Primary Author | Techniques Demonstrated** |
+| Method/function | Primary Author | Techniques Demonstrated |
 | --- | --- | --- |
 | Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
 | Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
