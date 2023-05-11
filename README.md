@@ -4,11 +4,11 @@ Repository for our final project
   -
 
 **Files and purpose**
-- guest1.csv: file containing guest information for first sample part
-- guest2.csv: file containing guest information for second sample paryty 
-- party_file1.txt: first sample file containing party and guest information 
-- party_file2.txt: second sample file containing party and guest information
-- party_planning.py: file containing the program and all code used to perform the necessary techniques for party planning for the user. 
+- `guest1.csv`: file containing guest information for first sample part
+- `guest2.csv`: file containing guest information for second sample paryty 
+- `party_file1.txt`: first sample file containing party and guest information 
+- `party_file2.txt`: second sample file containing party and guest information
+- `party_planning.py`: file containing the program and all code used to perform the necessary techniques for party planning for the user. 
 
 **How to run our program from the command line**
 - In the terminal, type in `python3` (on macOS) or `python` (on Windows) followed by a space and the name of the program which is `party_planning.py`. The program takes in a text file as the comamand-line argument. There are two text files provided `party_file1.txt` and `party_file2.txt`
