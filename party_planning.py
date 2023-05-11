@@ -136,6 +136,13 @@ class Guests():
 
         Returns:
         None
+        
+        Primary Author:
+            Zayaan Siddique
+            
+        Technique Demonstrated: 
+            Filtering dataframe using PANDAS
+            Visualizing dataframe using pyplot
         """
         df_name = input("Please provide the name of the csv you want to use. " 
                         "Make sure to add the .csv\n")
