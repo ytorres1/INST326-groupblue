@@ -54,6 +54,12 @@ class Guests():
         Returns:
             list (lists of strings): list of the guests grouped in tables
                 for the approrpriate amount of guests at a party.
+                
+        Primary Author:
+            Yasmine Torres
+            
+        Technique Demonstrated: 
+            List Comprehension
         """
         
         temp_guest_list = Guests.confirmed_guests(self)
@@ -78,6 +84,12 @@ class Guests():
         Returns:
             dict: dictionary of guests with guest name as key and their 
                 table number as value. 
+                
+        Primary Author:
+            Yasmine Torres
+            
+        Technique Demonstrated: 
+            Sort using Lambda
         """
         
         new_dict = {}

@@ -14,10 +14,12 @@ Repository for our final project
 - party_file1.txt
 - party_file2.txt
 - party_file3.txt
-- party_planning.py
+- party_planning.py: 
 
 **How to run our program from the command line**
-- stuff here
+- In the terminal, type in `python3` (on macOS) or `python` (on Windows) followed by a space and the name of the program which is `party_planning.py`. The program takes in a text file as the comamand-line argument. There are two text files provided `party_file1.txt` and `party_file2.txt`
+
+`python3 party_planning.py party_file1.txt`
 
 **How to use our program and/or interpret the output of the program**
 - stuff here
@@ -30,8 +32,8 @@ Repository for our final project
 **Attribution Table**
 | Method/function | Primary Author | Techniques Demonstrated |
 | --- | --- | --- |
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
+| seating_chart() | Yasmine Torres | List Comprehension |
+| sorted_guests() | Yasmine Torres | Sort using Lambda |
 | Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
 | Row 4, Column 1 | Row 4, Column 2 | Row 4, Column 3 |
 | Row 5, Column 1 | Row 5, Column 2 | Row 5, Column 3 |
