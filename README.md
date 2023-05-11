@@ -4,8 +4,8 @@ Repository for our final project
   -
 
 **Files and purpose**
-- `guest1.csv`: file containing guest information for first sample part
-- `guest2.csv`: file containing guest information for second sample paryty 
+- `guest1.csv`: file containing guest information for first sample party
+- `guest2.csv`: file containing guest information for second sample party 
 - `party_file1.txt`: first sample file containing party and guest information 
 - `party_file2.txt`: second sample file containing party and guest information
 - `party_planning.py`: file containing the program and all code used to perform the necessary techniques for party planning for the user. 
@@ -26,8 +26,8 @@ Repository for our final project
 **Attribution Table**
 | Method/function | Primary Author | Techniques Demonstrated |
 | --- | --- | --- |
-| seating_chart() | Yasmine Torres | List Comprehension |
-| sorted_guests() | Yasmine Torres | Sort using Lambda |
+| `seating_chart()` | Yasmine Torres | List Comprehension |
+| `sorted_guests()` | Yasmine Torres | Sort using Lambda |
 | Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
 | Row 4, Column 1 | Row 4, Column 2 | Row 4, Column 3 |
 | Row 5, Column 1 | Row 5, Column 2 | Row 5, Column 3 |
