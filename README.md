@@ -1,11 +1,33 @@
-# INST326-groupblue
-Repository for our final project for INST326
+INST326-groupblue
 
-- An explanation of the purpose of each file in your repository
-- Clear instructions on how to run your program from the command line
-- Clear instructions on how to use your program and/or interpret the output of the program, as applicable
-- An annotated bibliography of all sources you used to develop your project. For each source, explain how you used the source.
+Repository for our final project
+  -
 
+**Files and purpose**
+- .DS_Store:
+- Pandas_final.py:
+- ZSiddique_work:
+- guest:
+- guest1.csv
+- guest2.csv
+- guest3.csv
+- magicmethods and argparse.py:
+- party:
+- party_file1.txt
+- party_file2.txt
+- party_file3.txt
+- party_planning.py
+
+**How to run our program from the command line**
+- stuff here
+
+**How to use our program and/or interpret the output of the program**
+- stuff here
+
+**Annotated bibliography** 
+- all sources used to develop our project. For each source, explain how we used the source.
+
+**Attribution Table**
 | Method/function | Primary Author | Techniques Demonstrated |
 | --- | --- | --- |
 | Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
