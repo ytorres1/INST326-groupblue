@@ -5,8 +5,6 @@ Repository for our final project
 
 **Files and purpose**
 - .DS_Store:
-- Pandas_final.py:
-- ZSiddique_work:
 - guest:
 - guest1.csv
 - guest2.csv
@@ -26,6 +24,8 @@ Repository for our final project
 
 **Annotated bibliography** 
 - all sources used to develop our project. For each source, explain how we used the source.
+“Pandas.DataFrame.Loc#.” Pandas.DataFrame.Loc - Pandas 2.0.1 Documentation, pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html. Accessed 11 May 2023. 
+- This source was used to better understand how to use .loc to properly split up dataframes using pandas.
 
 **Attribution Table**
 | Method/function | Primary Author | Techniques Demonstrated |
