@@ -236,6 +236,15 @@ def parse_args(arglist):
 
     
 def main(path):
+    """Creates an instance of Guests and provides instructions to the user so 
+        that they could make their choice on what they want to see.
+        
+    Args: 
+        path (str): file containing party details and guest information. 
+    
+    Side effects:
+        Prints a string with all the options that the use could pick from. 
+    """
     current = Guests(path)
     while True:
         choice = input('''What do you want to see? 
