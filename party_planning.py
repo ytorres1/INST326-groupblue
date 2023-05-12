@@ -47,6 +47,12 @@ class Guests():
         
         Returns:
             list (list of strings): list of guests who have RSVP to the party. 
+            
+        Primary Author:
+            Donya Hosseini
+            
+        Technique Demonstrated: 
+            Sequence unpacking
         """
         confirmed_guests = []   
         unconfirmed_guests = []           
@@ -118,6 +124,11 @@ class Guests():
             dict: new dictionary that includes details of the specified guest, 
                 if the guest can not be found will return None.
                 
+        Primary Author:
+            Donya Hosseini
+            
+        Technique Demonstrated: 
+            Conditional expression
         """
         
         new_dict = {}
