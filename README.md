@@ -21,21 +21,21 @@ There are two text files provided `party_file1.txt` and `party_file2.txt`
 
 **How to use our program and/or interpret the output of the program**
 - Select an option from the menu provided
-  -For #1 Guests who have RSVPed
-    -The list returned will contain all guests who have RSVPed 'Yes'
-  -For #2 Seating Chart for Guests
-    -List returned, each list within that list is a seperate table
-  -For #3 List of Seating Chart for Waiter
-    -Dictionary returned, sorted in alphabetical order by last name, 
+  - For #1 Guests who have RSVPed
+    - The list returned will contain all guests who have RSVPed 'Yes'
+  - For #2 Seating Chart for Guests
+    - List returned, each list within that list is a seperate table
+  - For #3 List of Seating Chart for Waiter
+    - Dictionary returned, sorted in alphabetical order by last name, 
     with guest name as key and table number as value
-  -For #4 Visualize all your Guests' details
-    -Shows graphs to visualize demographics of Guests
-  -For #5 Find one specific guest's details
-    -Returns a list of dictionaries, a specific guest's details
-  -For #6 View all party details
-    -Prints party details
-  -For #7 Invitation to your guests
-    -Prints party invitation
+  - For #4 Visualize all your Guests' details
+    - Shows graphs to visualize demographics of Guests
+  - For #5 Find one specific guest's details
+    - Returns a list of dictionaries, a specific guest's details
+  - For #6 View all party details
+    - Prints party details
+  - For #7 Invitation to your guests
+    - Prints party invitation
 
 **Annotated bibliography** 
 - all sources used to develop our project. For each source, explain how we used the source.
