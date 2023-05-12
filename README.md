@@ -50,5 +50,5 @@ There are two text files provided `party_file1.txt` and `party_file2.txt`
 | Party `__init__`  | Alice Sun      | With Statement |
 | `guests_stats()` | Zayaan Siddique | Dataframe manipulation using Pandas |
 | `guests_stats()` | Zayaan Siddique | Data visualization using pyplot |
-| `__str`, `__repr__` | Collin Hong | Magic Methods |
-| `parse_args` | Collin Hong | Argument Parsing |
+| `__str__()`, `__repr__()` | Collin Hong | Magic Methods |
+| `parse_args()` | Collin Hong | Argument Parsing |
