@@ -38,8 +38,7 @@ There are two text files provided `party_file1.txt` and `party_file2.txt`
     - Prints party invitation
 
 **Annotated bibliography** 
-- all sources used to develop our project. For each source, explain how we used the source.
-“Pandas.DataFrame.Loc#.” Pandas.DataFrame.Loc - Pandas 2.0.1 Documentation, pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html. Accessed 11 May 2023. 
+- “Pandas.DataFrame.Loc#.” Pandas.DataFrame.Loc - Pandas 2.0.1 Documentation, pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html. Accessed 11 May 2023. 
 - This source was used to better understand how to use .loc to properly split up dataframes using pandas.
 
 **Attribution Table**
@@ -51,5 +50,5 @@ There are two text files provided `party_file1.txt` and `party_file2.txt`
 | Party `__init__`  | Alice Sun      | With Statement |
 | `guests_stats()` | Zayaan Siddique | Dataframe manipulation using Pandas |
 | `guests_stats()` | Zayaan Siddique | Data visualization using pyplot |
-| Row 7, Column 1 | Row 7, Column 2 | Row 7, Column 3 |
-| Row 8, Column 1 | Row 8, Column 2 | Row 8, Column 3 |
+| `__str`, `__repr__` | Collin Hong | Magic Methods |
+| `parse_args` | Collin Hong | Argument Parsing |
