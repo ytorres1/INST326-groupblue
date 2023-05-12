@@ -52,3 +52,5 @@ There are two text files provided `party_file1.txt` and `party_file2.txt`
 | `guests_stats()` | Zayaan Siddique | Data visualization using pyplot |
 | `__str__()`, `__repr__()` | Collin Hong | Magic Methods |
 | `parse_args()` | Collin Hong | Argument Parsing |
+| `guest_details()` | Donya Hosseini | Conditional Expression |
+| `confirmed_guests()` | Donya Hosseini | Sequence Unpacking |
