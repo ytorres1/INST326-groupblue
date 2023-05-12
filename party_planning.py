@@ -227,6 +227,12 @@ class Party():
     def __str__(self):
         """Returns informal string representation of party information for 
             guests.
+            
+        Primary Author:
+            Collin Hong
+            
+        Technique Demonstrated: 
+            Magic methods
         """
         return f"Host: {self.host}" \
             f"Address: {self.address}" \
@@ -236,6 +242,12 @@ class Party():
 
     def __repr__(self):
         """Returns a formal str representation of party information for guests.
+        
+        Primary Author:
+        Collin Hong
+            
+        Technique Demonstrated: 
+        Magic methods
         """
         return f"You have been invited to a {self.type} party by {self.host}." \
             f"The location will be {self.address}." \
