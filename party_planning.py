@@ -244,10 +244,10 @@ class Party():
         """Returns a formal str representation of party information for guests.
         
         Primary Author:
-        Collin Hong
+            Collin Hong
             
         Technique Demonstrated: 
-        Magic methods
+            Magic methods
         """
         return f"You have been invited to a {self.type} party by {self.host}." \
             f"The location will be {self.address}." \
@@ -266,6 +266,12 @@ def parse_args(arglist):
     Returns:
         argparse.Namespace: a namespace object with a file attribute whose value
         is a path to a text file as described above.
+        
+    Primary Author:
+        Collin Hong
+            
+    Technique Demonstrated: 
+        Argument Parsing
     """
     parser = ArgumentParser()
     parser.add_argument("file", help="file of party information")
